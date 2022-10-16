@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jnuncio- <jnuncio-@student.42lisboa.com>   +#+  +:+       +#+        */
+/*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 15:31:49 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/10/12 16:12:54 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/10/16 16:51:17 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <unistd.h>
+# include <string.h>
+# include <ctype.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
