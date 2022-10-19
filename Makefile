@@ -6,7 +6,7 @@
 #    By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 15:39:50 by jnuncio-          #+#    #+#              #
-#    Updated: 2022/10/19 15:54:38 by jnuncio-         ###   ########.fr        #
+#    Updated: 2022/10/19 21:21:32 by jnuncio-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,8 @@ CFLAGS = -Wall -Wextra -Werror
 
 SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c\
 	ft_strlen.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c\
-	ft_strchr.c ft_strrchr.c ft_strncmp.c
+	ft_strchr.c ft_strrchr.c ft_strncmp.c ft_strnstr.c ft_atoi.c\
+	
 
 OBJ = $(SRC:.c=.o)
 
