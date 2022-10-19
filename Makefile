@@ -6,11 +6,13 @@
 #    By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 15:39:50 by jnuncio-          #+#    #+#              #
-#    Updated: 2022/10/17 16:57:53 by jnuncio-         ###   ########.fr        #
+#    Updated: 2022/10/19 15:54:38 by jnuncio-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
+
+BIN = libft.so
 
 CC = gcc
 
@@ -29,10 +31,10 @@ $(NAME): $(OBJ)
 
 so:
 	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
-	gcc -nostartfiles -shared -o libft.so $(OBJ)
+	gcc -nostartfiles -shared -o $(BIN) $(OBJ)
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJ) $(BIN)
 
 fclean: clean
 	rm -f $(NAME)
