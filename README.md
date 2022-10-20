@@ -8,7 +8,7 @@
 First project of 42 Lisboa, in which a "libft.a" file must be made with a specific list of functions created/recreated by the user.
 </p>
 
-This is the [subject](https://github.com/zecalejo/42libft/files/9821185/dfads.pdf) of the project.
+This is the [subject](https://github.com/zecalejo/42libft/blob/master/dfads.pdf) of the project.
 </p>
 On the next section you can find links to each of functions individually.
 
