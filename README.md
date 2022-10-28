@@ -10,14 +10,14 @@ First project of 42 Lisboa, in which a "libft.a" file must be made with a specif
 
 This is the [subject](https://github.com/zecalejo/42libft/blob/master/dfads.pdf) of the project.
 </p>
-On the next section you can find links to each of functions individually.
+On the next section you can find links to each function.
 
 # Mandatory
 
-## PART 1
-</p>
+### PART 1
+
 [ft_isalpha](https://github.com/zecalejo/42libft/blob/master/ft_isalpha.c) // [ft_isdigit](https://github.com/zecalejo/42libft/blob/master/ft_isdigit.c) // [ft_isalnum](https://github.com/zecalejo/42libft/blob/master/ft_isalnum.c) // [ft_isascii](https://github.com/zecalejo/42libft/blob/master/ft_isascii.c) // [ft_isprint](https://github.com/zecalejo/42libft/blob/master/ft_isprint.c) // [ft_strlen](https://github.com/zecalejo/42libft/blob/master/ft_strlen.c) // [ft_memset](https://github.com/zecalejo/42libft/blob/master/ft_memset.c) // [ft_bzero](https://github.com/zecalejo/42libft/blob/master/ft_bzero.c) // [ft_memcpy](https://github.com/zecalejo/42libft/blob/master/ft_memcpy.c) // [ft_memmove](https://github.com/zecalejo/42libft/blob/master/ft_memmove.c) // [ft_strlcpy](https://github.com/zecalejo/42libft/blob/master/ft_strlcpy.c) // [ft_strlcat](https://github.com/zecalejo/42libft/blob/master/ft_strlcat.c) // [ft_toupper](https://github.com/zecalejo/42libft/blob/master/ft_toupper.c) // [ft_tolower](https://github.com/zecalejo/42libft/blob/master/ft_tolower.c) // [ft_strchr](https://github.com/zecalejo/42libft/blob/master/ft_strchr.c) // [ft_strncmp](https://github.com/zecalejo/42libft/blob/master/ft_strncmp.c) // [ft_strnstr](https://github.com/zecalejo/42libft/blob/master/ft_strnstr.c) // [ft_atoi](https://github.com/zecalejo/42libft/blob/master/ft_atoi.c) // [ft_calloc](https://github.com/zecalejo/42libft/blob/master/ft_calloc.c) // [ft_strdup](https://github.com/zecalejo/42libft/blob/master/ft_strdup.c)
 
-## PART 2
+### PART 2
 
-[ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c)
+[ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c) // [ft_strjoin](https://github.com/zecalejo/42libft/blob/master/ft_strjoin.c) // [ft_strtrim](https://github.com/zecalejo/42libft/blob/master/ft_strtrim.c) // [ft_split](https://github.com/zecalejo/42libft/blob/master/ft_split.c)

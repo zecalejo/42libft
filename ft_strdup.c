@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 22:43:36 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/10/24 21:43:23 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/10/27 17:42:42 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,4 @@ char	*ft_strdup(const char *s)
 	ft_memcpy(s2, s, len + 1);
 	return (s2);
 }
+
