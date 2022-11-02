@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 18:13:16 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/10/21 19:11:01 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/10/30 00:10:21 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * (int)nbr);
 }
-	/* if (nbr >= 9223372036854775807 && sign > 0)
-		return (-1);
-	else if (nbr > 9223372036854775807 && sign < 0)
-		return (0); */
