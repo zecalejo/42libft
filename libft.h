@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 15:31:49 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/10/31 04:14:44 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/03 00:53:46 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <unistd.h>
 # include <string.h>
 # include <ctype.h>
+# include <fcntl.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -46,6 +47,7 @@ char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);
 
 void	ft_bzero(void *s, size_t n);
+void	ft_putchar_fd(char c, int fd);
 
 void	*ft_memset(void *s, int c, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
