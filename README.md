@@ -20,4 +20,4 @@ On the next section you can find links to each function.
 
 ### PART 2
 
-[ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c) // [ft_strjoin](https://github.com/zecalejo/42libft/blob/master/ft_strjoin.c) // [ft_strtrim](https://github.com/zecalejo/42libft/blob/master/ft_strtrim.c) // [ft_split](https://github.com/zecalejo/42libft/blob/master/ft_split.c)
+[ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c) // [ft_strjoin](https://github.com/zecalejo/42libft/blob/master/ft_strjoin.c) // [ft_strtrim](https://github.com/zecalejo/42libft/blob/master/ft_strtrim.c) // [ft_split](https://github.com/zecalejo/42libft/blob/master/ft_split.c) // [ft_itoa](https://github.com/zecalejo/42libft/blob/master/ft_itoa.c)

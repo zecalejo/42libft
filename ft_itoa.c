@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 22:51:06 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/02 21:37:11 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/02 22:18:30 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,11 @@ char	*ft_itoa(int n)
 	size = ft_cntdigit(n);
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
-	if (n == 0)
-		return ("0");
 	ptr = (char *)malloc(size + 1);
 	if (!ptr)
 		return (NULL);
+	if (n == 0)
+		ptr[0] = '0';
 	if (n < 0)
 	{
 		ptr[0] = '-';
@@ -58,7 +58,8 @@ char	*ft_itoa(int n)
 	return (ptr);
 }
 
-/* int	main(int ac, char **av)
+/* 
+int	main(int ac, char **av)
 {
 	int	n;
 	int	i;
@@ -76,5 +77,4 @@ char	*ft_itoa(int n)
 		printf("\n");
 	}
 	return (0);
-}
- */
+} */
