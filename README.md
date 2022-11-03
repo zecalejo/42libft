@@ -1,5 +1,11 @@
 # 42libft
 </p>
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/114630189/199810112-a56bdd9a-ef1e-4f01-9b05-d8fc7c506a21.png" height="200px">
+<source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/114630189/199810373-c8b369d5-a68b-4f7c-bf08-143a95db3e88.png">
+<img alt="INTRA" src="https://user-images.githubusercontent.com/114630189/199810112-a56bdd9a-ef1e-4f01-9b05-d8fc7c506a21.png" height="200px">
+</picture>
 <p align="center">
   <img width="600" height="200" src="https://user-images.githubusercontent.com/114630189/196712772-8f09791f-cea1-478a-8150-76c83c680913.jpg">
 </p>
