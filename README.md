@@ -7,8 +7,6 @@
 <img alt="INTRA" src="https://user-images.githubusercontent.com/114630189/199824676-5b6523b2-fe41-4990-a415-bf6b88c9c2d0.svg" height="200px">
 </picture>
 </div>
-<p align="center">
-  <img width="600" height="200" src="https://user-images.githubusercontent.com/114630189/196712772-8f09791f-cea1-478a-8150-76c83c680913.jpg">
 </p>
 42 Cursus Libft</p>
 </p>
