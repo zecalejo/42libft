@@ -1,21 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/03 00:19:34 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/03 20:50:59 by jnuncio-         ###   ########.fr       */
+/*   Created: 2022/11/03 20:56:09 by jnuncio-          #+#    #+#             */
+/*   Updated: 2022/11/03 21:01:27 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	if (fd < 0)
 		return ;
-	write(fd, &c, sizeof(c));
+	ft_putstr_fd(s, fd);
+	write(fd, "\n", 1);
 	return ;
 }

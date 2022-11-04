@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/30 22:51:06 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/02 22:18:30 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/03 23:07:38 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,24 +57,3 @@ char	*ft_itoa(int n)
 	}
 	return (ptr);
 }
-
-/* 
-int	main(int ac, char **av)
-{
-	int	n;
-	int	i;
-
-	i = 1;
-	if (ac > 1)
-	{
-		while (i < ac)
-		{
-			n = atoi(av[i]);
-			printf("\nn = %d | size = %d\n", n, ft_cntdigit(n));
-			printf("ft_itoa = \"%s\"\n", ft_itoa(n));
-			i++;
-		}
-		printf("\n");
-	}
-	return (0);
-} */
