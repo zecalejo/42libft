@@ -17,7 +17,7 @@ This is the [subject](https://github.com/zecalejo/42libft/blob/master/dfads.pdf)
 </p>
 On the next section you can find links to each function.
 
-# Mandatory
+## Mandatory
 
 ### PART 1
 
@@ -26,3 +26,7 @@ On the next section you can find links to each function.
 ### PART 2
 
 [ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c) // [ft_strjoin](https://github.com/zecalejo/42libft/blob/master/ft_strjoin.c) // [ft_strtrim](https://github.com/zecalejo/42libft/blob/master/ft_strtrim.c) // [ft_split](https://github.com/zecalejo/42libft/blob/master/ft_split.c) // [ft_itoa](https://github.com/zecalejo/42libft/blob/master/ft_itoa.c) // [ft_strmapi](https://github.com/zecalejo/42libft/blob/master/ft_strmapi.c) // [ft_striteri](https://github.com/zecalejo/42libft/blob/master/ft_strteri.c) // [ft_putchar_fd](https://github.com/zecalejo/42libft/blob/master/ft_putchar_fd.c) // [ft_putstr_fd](https://github.com/zecalejo/42libft/blob/master/ft_pustr_fd.c) // [ft_putendl_fd](https://github.com/zecalejo/42libft/blob/master/ft_putendl_fd.c) // [ft_putnbr_fd](https://github.com/zecalejo/42libft/blob/master/ft_putnbr_fd.c)
+
+## Bonus
+
+[ft_lstnew] // [ft_lstadd_front] // [ft_lstsize] // [ft_lstlast] // [ft_lstadd_back] // [ft_lstdelone] // [ft_lstclear] // [ft_lstiter] // [ft_lstmap]
