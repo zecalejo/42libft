@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 15:31:49 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/07 18:30:10 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/07 23:06:27 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,14 @@
 # include <string.h>
 # include <ctype.h>
 # include <fcntl.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+
+// MANDATORY
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -59,5 +67,13 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_calloc(size_t nmemb, size_t size);
+
+// BONUS
+
+t_list	*ft_lstnew(void *content);
+
+void	ft_lstadd_front(t_list **lst, t_list *new);
+
+int		ft_lstsize(t_list *lst);
 
 #endif

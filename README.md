@@ -19,11 +19,11 @@ On the next section you can find links to each function.
 
 ## Mandatory
 
-### PART 1
+#### PART 1
 
 [ft_isalpha](https://github.com/zecalejo/42libft/blob/master/ft_isalpha.c) // [ft_isdigit](https://github.com/zecalejo/42libft/blob/master/ft_isdigit.c) // [ft_isalnum](https://github.com/zecalejo/42libft/blob/master/ft_isalnum.c) // [ft_isascii](https://github.com/zecalejo/42libft/blob/master/ft_isascii.c) // [ft_isprint](https://github.com/zecalejo/42libft/blob/master/ft_isprint.c) // [ft_strlen](https://github.com/zecalejo/42libft/blob/master/ft_strlen.c) // [ft_memset](https://github.com/zecalejo/42libft/blob/master/ft_memset.c) // [ft_bzero](https://github.com/zecalejo/42libft/blob/master/ft_bzero.c) // [ft_memcpy](https://github.com/zecalejo/42libft/blob/master/ft_memcpy.c) // [ft_memmove](https://github.com/zecalejo/42libft/blob/master/ft_memmove.c) // [ft_strlcpy](https://github.com/zecalejo/42libft/blob/master/ft_strlcpy.c) // [ft_strlcat](https://github.com/zecalejo/42libft/blob/master/ft_strlcat.c) // [ft_toupper](https://github.com/zecalejo/42libft/blob/master/ft_toupper.c) // [ft_tolower](https://github.com/zecalejo/42libft/blob/master/ft_tolower.c) // [ft_strchr](https://github.com/zecalejo/42libft/blob/master/ft_strchr.c) // [ft_strncmp](https://github.com/zecalejo/42libft/blob/master/ft_strncmp.c) // [ft_strnstr](https://github.com/zecalejo/42libft/blob/master/ft_strnstr.c) // [ft_atoi](https://github.com/zecalejo/42libft/blob/master/ft_atoi.c) // [ft_calloc](https://github.com/zecalejo/42libft/blob/master/ft_calloc.c) // [ft_strdup](https://github.com/zecalejo/42libft/blob/master/ft_strdup.c)
 
-### PART 2
+#### PART 2
 
 [ft_substr](https://github.com/zecalejo/42libft/blob/master/ft_substr.c) // [ft_strjoin](https://github.com/zecalejo/42libft/blob/master/ft_strjoin.c) // [ft_strtrim](https://github.com/zecalejo/42libft/blob/master/ft_strtrim.c) // [ft_split](https://github.com/zecalejo/42libft/blob/master/ft_split.c) // [ft_itoa](https://github.com/zecalejo/42libft/blob/master/ft_itoa.c) // [ft_strmapi](https://github.com/zecalejo/42libft/blob/master/ft_strmapi.c) // [ft_striteri](https://github.com/zecalejo/42libft/blob/master/ft_strteri.c) // [ft_putchar_fd](https://github.com/zecalejo/42libft/blob/master/ft_putchar_fd.c) // [ft_putstr_fd](https://github.com/zecalejo/42libft/blob/master/ft_pustr_fd.c) // [ft_putendl_fd](https://github.com/zecalejo/42libft/blob/master/ft_putendl_fd.c) // [ft_putnbr_fd](https://github.com/zecalejo/42libft/blob/master/ft_putnbr_fd.c)
 
