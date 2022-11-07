@@ -6,7 +6,7 @@
 #    By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 15:39:50 by jnuncio-          #+#    #+#              #
-#    Updated: 2022/11/03 23:50:26 by jnuncio-         ###   ########.fr        #
+#    Updated: 2022/11/07 18:30:22 by jnuncio-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c\
 	ft_memset.c ft_bzero.c ft_memcpy.c ft_memmove.c ft_memchr.c ft_memcmp.c\
 	ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c ft_strtrim.c\
 	ft_split.c ft_itoa.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c\
-	ft_putnbr_fd.c
+	ft_putnbr_fd.c ft_strmapi.c ft_striteri.c
 
 OBJ = $(SRC:.c=.o)
 
