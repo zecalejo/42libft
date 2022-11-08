@@ -29,4 +29,4 @@ On the next section you can find links to each function.
 
 ## Bonus
 
-[ft_lstnew] // [ft_lstadd_front] // [ft_lstsize] // [ft_lstlast] // [ft_lstadd_back] // [ft_lstdelone] // [ft_lstclear] // [ft_lstiter] // [ft_lstmap]
+[ft_lstnew](https://github.com/zecalejo/42libft/blob/master/ft_lstnew.c) // [ft_lstadd_front](https://github.com/zecalejo/42libft/blob/master/ft_lstadd_front.c) // [ft_lstsize](https://github.com/zecalejo/42libft/blob/master/ft_lstsize.c) // [ft_lstlast](https://github.com/zecalejo/42libft/blob/master/ft_lstlast.c) // [ft_lstadd_back] // [ft_lstdelone] // [ft_lstclear] // [ft_lstiter] // [ft_lstmap]

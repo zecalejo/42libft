@@ -6,7 +6,7 @@
 #    By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 15:39:50 by jnuncio-          #+#    #+#              #
-#    Updated: 2022/11/07 23:23:31 by jnuncio-         ###   ########.fr        #
+#    Updated: 2022/11/08 20:51:18 by jnuncio-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -60,6 +60,7 @@ OBJ = $(SRC:.c=.o)
 SRC_BONUS = ft_lstnew.c\
 			ft_lstadd_front.c\
 			ft_lstsize.c\
+			ft_lstlast.c\
 
 OBJ_BONUS = $(SRC_BONUS:.c=.o)
 

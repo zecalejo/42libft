@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 15:31:49 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/07 23:06:27 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/08 20:27:24 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,7 @@ void	*ft_calloc(size_t nmemb, size_t size);
 // BONUS
 
 t_list	*ft_lstnew(void *content);
+t_list	*ft_lstlast(t_list *lst);
 
 void	ft_lstadd_front(t_list **lst, t_list *new);
 
