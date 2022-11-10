@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 20:56:09 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/03 21:01:27 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/09 23:34:42 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,4 @@ void	ft_putendl_fd(char *s, int fd)
 		return ;
 	ft_putstr_fd(s, fd);
 	write(fd, "\n", 1);
-	return ;
 }

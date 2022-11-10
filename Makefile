@@ -6,7 +6,7 @@
 #    By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/16 15:39:50 by jnuncio-          #+#    #+#              #
-#    Updated: 2022/11/08 20:51:18 by jnuncio-         ###   ########.fr        #
+#    Updated: 2022/11/10 00:15:49 by jnuncio-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,6 +61,11 @@ SRC_BONUS = ft_lstnew.c\
 			ft_lstadd_front.c\
 			ft_lstsize.c\
 			ft_lstlast.c\
+			ft_lstadd_back.c\
+			ft_lstdelone.c\
+			ft_lstclear.c\
+			ft_lstiter.c\
+			ft_lstmap.c\
 
 OBJ_BONUS = $(SRC_BONUS:.c=.o)
 

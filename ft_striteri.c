@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 18:21:34 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/07 18:33:12 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/09 23:35:08 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		f(i, &s[i]);
 		i++;
 	}
-	return ;
 }

@@ -6,13 +6,11 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 04:15:26 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/07 18:21:04 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/10 00:30:30 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-char	(*f)(unsigned int a, char b);
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 00:19:34 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/03 20:50:59 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/09 23:34:37 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,4 @@ void	ft_putchar_fd(char c, int fd)
 	if (fd < 0)
 		return ;
 	write(fd, &c, sizeof(c));
-	return ;
 }
