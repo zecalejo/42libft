@@ -32,4 +32,4 @@ On the next section you can find links to each function.
 [ft_lstnew](https://github.com/zecalejo/42libft/blob/master/ft_lstnew.c) // [ft_lstadd_front](https://github.com/zecalejo/42libft/blob/master/ft_lstadd_front.c) // [ft_lstsize](https://github.com/zecalejo/42libft/blob/master/ft_lstsize.c) // [ft_lstlast](https://github.com/zecalejo/42libft/blob/master/ft_lstlast.c) // [ft_lstadd_back](https://github.com/zecalejo/42libft/blob/master/ft_lstadd_back.c) // [ft_lstdelone](https://github.com/zecalejo/42libft/blob/master/ft_lstdelone.c) // [ft_lstclear](https://github.com/zecalejo/42libft/blob/master/ft_lstclear.c) // [ft_lstiter](https://github.com/zecalejo/42libft/blob/master/ft_lstiter.c) // [ft_lstmap](https://github.com/zecalejo/42libft/blob/master/ft_lstmap.c)
 
 
-Use these links to check the [Makefile]((https://github.com/zecalejo/42libft/blob/master/Makefile) and [header file](https://github.com/zecalejo/42libft/blob/master/libft.h).
+Use these links to check the [Makefile](https://github.com/zecalejo/42libft/blob/master/Makefile) and [header file](https://github.com/zecalejo/42libft/blob/master/libft.h).
