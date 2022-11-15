@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/03 20:39:21 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/09 23:34:50 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/14 22:06:45 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = -1;
-	if (fd < 0)
+	if (!s || fd < 0)
 		return ;
 	while (s[++i])
 		write(fd, &s[i], 1);

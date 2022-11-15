@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 22:39:01 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/03 00:10:03 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/14 23:39:17 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ char	**ft_split(char const *s, char c)
 	wcnt = -1;
 	while (s[++i])
 	{
-		if (s[i] != c && s[i - 1] == c)
+		if (i > 0 && s[i] != c && (s[i - 1] == c))
 			j = i;
 		if (s[i] != c && (s[i + 1] == c || s[i + 1] == '\0') && i > 0)
 		{
@@ -56,23 +56,3 @@ char	**ft_split(char const *s, char c)
 	ptr[wcnt + 1] = NULL;
 	return (ptr);
 }
-
-// int	main(void)
-// {
-// 	size_t	i;
-// 	size_t	j;
-// 	char	**ptr;
-// 	// char const	s[] = "                  olol";
-// 	// char const	s[] = "Jose Calejo Pires";
-// 	char const	s[] = "      split       this for   me  !       ";
-
-// 	i = -1;
-// 	j = ft_wrdcnt(s, ' ');
-// 	ptr = ft_split(s, ' ');
-// 	printf("\nwcnt = %ld\n\n", j);
-// 	while (++i < j)
-// 		printf("\"%s\"\n", ptr[i]);
-// 	printf("%p\n", ptr[j]);
-// 	free(ptr);
-// 	return (0);
-// }

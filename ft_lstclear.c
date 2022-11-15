@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 23:39:55 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/10 00:07:12 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/14 22:18:25 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list	*ptr;
 
+	if (!lst || !del)
+		return ;
 	while (*lst)
 	{
 		ptr = (*lst)->next;

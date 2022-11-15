@@ -6,7 +6,7 @@
 /*   By: jnuncio- <jnuncio-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/31 04:15:26 by jnuncio-          #+#    #+#             */
-/*   Updated: 2022/11/10 00:30:30 by jnuncio-         ###   ########.fr       */
+/*   Updated: 2022/11/14 22:00:46 by jnuncio-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char			*str;
 
 	i = 0;
+	if (!s)
+		return (NULL);
 	str = (char *)malloc(ft_strlen(s) + 1);
 	if (!str)
 		return (NULL);
